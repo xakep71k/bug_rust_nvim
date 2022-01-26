@@ -1,16 +1,4 @@
-use mongodb::sync::Client;
-
-const COLLECTION_SETTINGS: &str = "settings";
-const COLLECTION_ACCOUNTS: &str = "accounts";
-
-use mongodb::{
-    bson::{doc, Document},
-    options::FindOneOptions,
-    options::FindOptions,
-    options::UpdateOptions,
-    sync::Database,
-};
-use serde::{Deserialize, Serialize};
+use mongodb::bson::{doc, Document};
 
 fn main() {}
 
